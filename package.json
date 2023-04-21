@@ -41,7 +41,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://github.com/DanaOlogeanu/Pokedex",
+  "homepage": "https://danaologeanu.github.io/Pokedex/",
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "css-minimizer-webpack-plugin": "^5.0.0",
