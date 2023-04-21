@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DanaOlogeanu/Pokedex/static/css/main.76bea71a.css",
+    "main.js": "/DanaOlogeanu/Pokedex/static/js/main.09dffce8.js",
+    "index.html": "/DanaOlogeanu/Pokedex/index.html",
+    "main.76bea71a.css.map": "/DanaOlogeanu/Pokedex/static/css/main.76bea71a.css.map",
+    "main.09dffce8.js.map": "/DanaOlogeanu/Pokedex/static/js/main.09dffce8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76bea71a.css",
+    "static/js/main.09dffce8.js"
+  ]
+}
