@@ -92,16 +92,7 @@ animation-name: text;
   font-family: 'Copperplate','Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
-/* #pokeName{
-  font-size: large;
-  text-transform: capitalize;
-  font-weight: bold;
-  color: lightskyblue;
-}
 
-#pokePhoto{
-  align-content: center;
-} */
 
 .page-number{
   cursor: pointer;
@@ -162,9 +153,7 @@ animation-name: text;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.089);
 }
   
-/* .thumb-container :hover {
-   margin: 0.1rem 0; 
-} */
+
   
 h3 {
   margin-bottom: 0.2rem;
