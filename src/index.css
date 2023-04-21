@@ -1,0 +1,255 @@
+
+
+nav {
+  width: 100%;
+  text-align: center;
+}
+
+nav * {
+  margin: 10px;
+  color: palevioletred;
+  display: inline-flex;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: lightskyblue;
+}
+
+#about{
+text-align: justify;
+text-decoration:dashed ;
+color: lightskyblue;
+padding:40px 50px;
+background-color: beige;
+}
+#about2{
+  text-align: justify;
+text-decoration:dashed ;
+color: lightskyblue;
+padding:40px 50px;
+background-color:  lightcyan;
+}
+
+#about3{
+  text-align: justify;
+text-decoration:dashed ;
+color: lightskyblue;
+padding:40px 50px;
+background-color: lightgoldenrodyellow;
+}
+#headline{
+  width: 100%;
+  text-align: center;
+  color: lightslategray;
+  
+}
+
+
+
+
+
+#catch{
+  color: lightskyblue;
+  font-size: 30pt;
+  font-style: oblique;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100%;
+text-align: center;
+animation-name: text;
+  animation: text 4s steps(15) infinite alternate;
+
+
+}
+
+.pagination ul
+{
+  list-style-type: none;
+ 
+}
+
+.pagination ul li
+{
+  display: inline;
+}
+
+ .pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;} */
+
+#pokeData{
+  text-align:left;
+  list-style-type: none;
+  font-family: 'Copperplate','Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+/* #pokeName{
+  font-size: large;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: lightskyblue;
+}
+
+#pokePhoto{
+  align-content: center;
+} */
+
+.page-number{
+  cursor: pointer;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 3rem 1rem;
+}
+  
+.app-container h1 {
+  width: 0ch;
+  color: rgb(16, 166, 236);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: text 4s steps(15) infinite alternate;
+}
+  
+@keyframes text {
+  0% {
+    width: 0ch;
+  }
+  50% {
+    width: 15ch;
+    color: rgb(218, 55, 5);
+  }
+}
+  
+.pokemon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+  
+.all-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+  
+.thumb-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0.2rem;
+  margin: 0.3rem;
+  border: 1px solid #efefef;
+  border-radius: 2rem;
+  min-width: 160px;
+  text-align: center;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.089);
+}
+  
+/* .thumb-container :hover {
+   margin: 0.1rem 0; 
+} */
+  
+h3 {
+  margin-bottom: 0.2rem;
+}
+  
+.thumb-container .number {
+  border-radius: 1rem;
+  padding: 0.2rem 0.4rem;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+  
+.thumb-container img {
+  width: 120px;
+  height: 120px;
+}
+  
+.thumb-container small {
+  text-transform: capitalize;
+}
+  
+.detail-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+  
+.detail-wrapper button {
+  color: rgb(22, 22, 22);
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.185);
+}
+
+.psychic
+{
+  background-color: rgb(143, 52, 52);
+}
+
+.fighting{
+  background-color: rgb(136, 0, 0);
+}
+  
+.rock {
+  background-color: burlywood;
+}
+  
+.ghost {
+  background-color: rgb(100, 51, 100);
+}
+  
+.electric {
+  background-color: #f9d423;
+}
+  
+.bug {
+  background-color: greenyellow;
+}
+  
+.poison {
+  background-color: purple;
+}
+  
+.normal {
+  background-color: rgb(134, 163, 131);
+}
+  
+.fairy {
+  background-color: pink;
+}
+  
+.fire {
+  background-color: orange;
+}
+  
+.grass {
+  background-color: green;
+}
+  
+.water {
+  background-color: blue;
+}
+  
+.ground {
+  background-color: sandybrown;
+}
