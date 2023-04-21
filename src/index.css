@@ -84,7 +84,7 @@ animation-name: text;
   color: white;
 }
 
-.pagination a:hover:not(.active) {background-color: #ddd;} */
+.pagination a:hover:not(.active) {background-color: #ddd;} 
 
 #pokeData{
   text-align:left;
