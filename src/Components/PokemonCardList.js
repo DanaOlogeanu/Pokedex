@@ -40,7 +40,6 @@ function PokemonCardList() {
   };
 
 
-////
   
   return (
     <div className="app-container">
